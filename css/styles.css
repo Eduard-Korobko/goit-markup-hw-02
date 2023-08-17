@@ -1,5 +1,5 @@
 body{
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto",sans-serif;
         color: #434455;
         background-color: #ffffff;
 }
@@ -12,6 +12,7 @@ a{
 
 
 .title-section{
+                color: #2E2F42;
                 text-align: center;
                 font-size: 36px;
                 font-weight: 700;
@@ -20,6 +21,7 @@ a{
                 text-transform: capitalize;
 }
 .title-bold{
+            color: #2E2F42;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2;
@@ -56,7 +58,7 @@ a{
             letter-spacing: 0.32px;
 }
 
-.link-nav :hover,:focus{
+.link-nav :hover, :focus{
                         color:#404BBF;
 }
 .header-address{
