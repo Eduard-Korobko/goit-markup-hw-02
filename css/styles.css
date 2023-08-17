@@ -1,0 +1,111 @@
+body{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #2E2F42;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;}
+
+
+.title-section{
+                text-align: center;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.72px;
+                /* text-transform: capitalize; */
+}
+.title-bold{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.4px;
+}
+
+.title-normal{
+                color: #434455;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+}
+
+/* ===== Верхняя линия ===== */
+.logo{
+        font-family: Raleway,;
+        color: #2E2F42;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.logo:hover, :focus{
+                    color:#4D5AE5;
+}
+.link-nav a{
+            color: #2E2F42;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.50;
+            letter-spacing: 0.32px;
+}
+
+.link-nav :hover, :focus{
+                        color:#4D5AE5;
+}
+
+.link-address a{
+                color: #434455;
+                font-size: 16px;
+                font-style: normal;
+                line-height: 1.50;
+                letter-spacing: 0.32px;
+}
+
+.link-address :hover, :focus{
+                            color:#4D5AE5;
+}
+/* ===== 1 Секция Hero ===== */
+.hero{
+        background:#2E2F42;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 56px;
+    color: #FFFFFF;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 2%;
+}
+
+button{
+        background: #4D5AE5;
+        cursor: pointer;
+        color: #FFF;
+        /* Button Text */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.50;
+        letter-spacing: 0.64px;
+}
+
+button:hover, :focus{
+                     background: #404BBF;
+}
+
+/* ===== Наши особенности ===== */
+/* ===== Наша команда ===== */
+/* ===== Секция Футер ===== */
+.footer{
+        background: #2E2F42;
+}
+.footer .logo{
+                color: #F4F4FD;
+}
+.footer .logo:hover, :focus{
+                            color: #4D5AE5;
+}
