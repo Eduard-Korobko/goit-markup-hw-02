@@ -1,5 +1,5 @@
 body{
-        font-family: "Roboto",sans-serif;
+        font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #ffffff;
 }
@@ -45,12 +45,19 @@ a{
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.logo:hover, :focus{
-                    /* color:#4D5AE5; */
-                    color: aqua;
+.black-logo{
+             color: #2E2F42;
+}
+.black-logo:hover,
+.black-logo:focus{
+                    color:#4D5AE5;
+}
+.logo:hover,
+.logo:focus{
+                    color:#4D5AE5;
 }
 
-.link-nav a{
+.link-nav{
             color: #2E2F42;
             font-size: 16px;
             font-weight: 500;
@@ -58,7 +65,8 @@ a{
             letter-spacing: 0.32px;
 }
 
-.link-nav :hover, :focus{
+.link-nav:hover, 
+.link-nav:focus{
                         color:#404BBF;
 }
 .header-address{
@@ -72,8 +80,9 @@ a{
                 letter-spacing: 0.32px;
 }
 
-.link-address :hover,:focus{
-                            color:#404BBF;
+.link-address:hover,
+.link-address:focus{
+                    color:#404BBF;
 }
 /* ===== 1 Секция Hero ===== */
 .hero{
@@ -102,7 +111,8 @@ a{
         letter-spacing: 0.64px;
 }
 
-.hero-button:hover, :focus{
+.hero-button:hover, 
+.hero-button:focus{
                      background: #404BBF;
 }
 
@@ -117,4 +127,14 @@ a{
 /* ===== Секция Футер ===== */
 .footer{
         background: #2E2F42;
+}
+.white-logo{
+             color: #F4F4FD;
+}
+.white-logo:hover,
+.white-logo:focus{
+                    color: #4D5AE5;
+}
+.footer-text{
+    color: #F4F4FD;
 }
